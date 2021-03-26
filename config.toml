@@ -1,0 +1,20 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Hugo test"
+theme = "docsy"
+
+[menu]
+
+    [[menu.main]]
+        identifier = "documentation"
+        name = "Documentation"
+        pre = "<i class='fa fa-heart'></i>"
+        url = "/documentation/"
+        weight = 20
+
+    [[menu.main]]
+        identifier = "configuration"
+        name = "Configuration"
+        pre = "<i class='fa fa-heart'></i>"
+        url = "/configuration/"
+        weight = 22
